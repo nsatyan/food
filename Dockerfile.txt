@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+RUN mkdir /opt/jenkins
+RUN yum install nginx -y
+CMD sleep 10000
